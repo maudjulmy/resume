@@ -30,7 +30,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'location', label: 'Vuisternens-en-Ogoz, Suisse' },
     { type: 'location', label: 'Née le 27/04/1993 à Saint-Priest (France)' },
     { type: 'location', label: 'Mariée, 1 enfant' },
-    { type: 'location', label: 'Permis de séjour B' },
+    { type: 'location', label: 'Permis se séjour B' },
   ],
   skills: [
     {
@@ -71,7 +71,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'SPSS' },
         { name: 'Jamovi' },
         { name: 'Matlab' },
-        { name: 'basic Power BI' },
+        { name: 'Power BI' },
         { name: 'Figma' },
         { name: 'Adobe XD' },
         { name: 'Balsamiq' },
@@ -99,10 +99,10 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Poste académique', en: 'Academic position' },
       period: { fr: '2021 - Aujourd\'hui', en: '2021 - Present' },
       description: {
-        fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants. Représentante du Corps Intermédiaire du domaine ingénierie au niveau du Conseil du Personnel. Membre du jury de recrutement du Directeur Général en 2024.',
-        en: 'Applied research in user-centred design and innovation project management. Representative of the Intermediate Corps in the engineering field at the Staff Council level. Member of the recruitment panel for the Chief Executive Officer in 2024.',
+        fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants. Représentante du Corps Intermédiaire du domaine ingénierie au niveau du Conseil du Personnel. Membre du jury de recrutement du Directeur Général en 2024',
+        en: 'Applied research in user-centred design and innovation project management. Representative of the Intermediate Corps in the engineering field at the Staff Council level. Member of the recruitment panel for the Chief Executive Officer in 2024',
       },
-      techs: ['Figma', 'Miro', 'R', 'Notion', 'Driving simulator', 'Meta quest VR headset', 'Unity'],
+      techs: ['Figma', 'Miro', 'R', 'SPSS', 'Notion', 'Meta Quest Headset', 'Unity'],
       isHighlighted: true,
       details: {
         context: {
@@ -111,10 +111,10 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           fr: [
-            'Prospection, montage et gestion de projets de recherche',
+            'Montage et gestion de projets de recherche',
             'UX research et spécifications produits',
             'Design vision, design service, customer journey, storyboard, design sprint workshop,' 
-            'Prototypage, tests utilisateurs, A/B testing, UX audit',
+            'Prototypage et tests utilisateurs',
             'Suivi des bug et priorisation des tâches',
             'Enseignement UX design Bachelor',
             'Management des assistants de recherche',
@@ -122,8 +122,8 @@ export const resumeConfig: ResumeConfig = {
           en: [
             'Research project setup and management',
             'UX research and product specifications',
-            'Design vision, design service, customer journey, storyboard, design sprint workshop,'
-            'Prototyping, user testing, A/B testing, UX audit',
+            'Design vision, design service, customer journey, storyboard, design sprint workshop,
+            'Prototyping and user testing',
             'Bug tracking and task prioritisation',
             'Bachelor UX design teaching',
             'Research assistant supervision',
@@ -145,34 +145,111 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Thèse sur l\'amélioration du processus de co-conception via la Réalité Augmentée Spatiale.',
         en: 'PhD thesis on improving co-design processes using Spatial Augmented Reality.',
       },
-      techs: ['R', 'SPSS', 'Matlab', 'Unity'],
+      techs: ['R', 'SPSS', 'Unity'],
       details: {
-        context: {
-          fr: 'Laboratoire G-SCOP, collaborations internationales.',
-          en: 'G-SCOP laboratory, international collaborations.',
-        },
         tasks: {
           fr: [
             'Animation de Design Sprints et entretiens',
+            'Collaboration internationale (Espagne, UK, Italie)',
             'Organisation de webinaires pendant la Covid-19',
-            '3 ans d\'enseignement universitaire: statistiques et management des connaissances',
+            '3 ans d\'enseignement universitaire (Statistiques et Management de la connaissance)',
           ],
           en: [
             'Design Sprint facilitation and interviews',
+            'International collaboration (Spain, UK, Italy)',
             'Webinar organization during Covid-19',
-            '3 years of university teaching: statistics and knowledge management',
+            '3 years of university teaching (Statistics and Knowledge Management)',
           ],
-        },
-        env: {
-          fr: 'R / SPSS / Matlab / Méthodes expérimentales / Spatial augmented reality',
-          en: 'R / SPSS / Matlab / Experimental methods / Spatial augmented reality',
         },
       },
     },
+    {
+      id: 'spark',
+      company: { fr: 'Projet Européen SPARK H2020', en: 'European Project SPARK H2020' },
+      role: { fr: 'Ingénieure ergonome', en: 'Ergonomics Engineer' },
+      type: { fr: 'Projet européen', en: 'European project' },
+      period: { fr: '2017 - 2018', en: '2017 - 2018' },
+      description: {
+        fr: 'Conception d\'une plateforme de Réalité Augmentée Spatiale pour la co-conception.',
+        en: 'Design of a Spatial Augmented Reality platform for co-design.',
+      },
+      techs: [],
+    },
+    {
+      id: 'stages',
+      company: { fr: 'Divers stages', en: 'Various internships' },
+      role: { fr: 'Stagiaire', en: 'Intern' },
+      type: { fr: 'Stages', en: 'Internships' },
+      period: { fr: '2015 - 2017', en: '2015 - 2017' },
+      description: {
+        fr: 'Expériences en formation, analyse cognitive et conduite du changement.',
+        en: 'Experience in training design, cognitive analysis and change management.',
+      },
+      techs: [],
+    },
+    {
+      id: 'cameraman',
+      company: { fr: 'Indépendante', en: 'Freelance' },
+      role: { fr: 'Cameraman sportive', en: 'Sports Camerawoman' },
+      type: { fr: 'Indépendante', en: 'Freelance' },
+      period: { fr: '2014 - 2018', en: '2014 - 2018' },
+      description: {
+        fr: 'Cameraman indépendante dans le milieu équestre.',
+        en: 'Freelance sports camerawoman in the equestrian field.',
+      },
+      techs: [],
+    },
+    {
+      id: 'publications',
+      company: { fr: 'Publications scientifiques', en: 'Scientific Publications' },
+      role: { fr: 'Autrice et co-autrice', en: 'Author and Co-author' },
+      type: { fr: 'Recherche', en: 'Research' },
+      period: { fr: '2019 - 2025', en: '2019 - 2025' },
+      description: {
+        fr: 'Publications internationales en interaction humain-machine et co-conception.',
+        en: 'International publications in human-computer interaction and co-design.',
+      },
+      techs: [],
+    },
   ],
-  education: [],
-  projects: [],
-  hobbies: [],
+  education: [
+    {
+      school: { fr: 'Grenoble INP', en: 'Grenoble INP' },
+      degree: { fr: 'Doctorat en Génie Industriel', en: 'PhD in Industrial Engineering' },
+      period: '2018 - 2021',
+    },
+    {
+      school: { fr: 'Université de Dijon', en: 'University of Dijon' },
+      degree: { fr: 'Master Psychologie - Ingénierie de la formation et ergonomie', en: 'Master in Psychology - Training Engineering and Ergonomics' },
+      period: '2015 - 2017',
+    },
+    {
+      school: { fr: 'Université Clermont-Ferrand', en: 'University of Clermont-Ferrand' },
+      degree: { fr: 'Licence de Psychologie', en: 'Bachelor in Psychology' },
+      period: '2011 - 2014',
+    },
+    {
+      school: { fr: 'Certification Design Sprint Master Class', en: 'Design Sprint Master Class Certification' },
+      degree: { fr: 'Certification', en: 'Certification' },
+      period: '2023',
+    },
+    {
+      school: { fr: 'Formation HERMES Foundation', en: 'HERMES Foundation Training' },
+      degree: { fr: 'En cours', en: 'In progress' },
+      period: '2026',
+    },
+  ],
+  hobbies: [
+    {
+      title: { fr: 'Sports & Nature', en: 'Sports & Nature' },
+      details: [
+        { fr: 'Randonnée pédestre et vélo', en: 'Hiking and cycling' },
+        { fr: 'Ski alpin, ski de randonnée, telemark', en: 'Alpine skiing, ski touring, telemark' },
+        { fr: 'Natation et natation en eau libre', en: 'Swimming and open water swimming' },
+        { fr: 'Équitation', en: 'Horse riding' },
+      ],
+    },
+  ],
   theme: { preset: 'ocean' },
   labels: {
     sections: {
