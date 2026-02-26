@@ -28,9 +28,9 @@ export const resumeConfig: ResumeConfig = {
     { type: 'phone', label: '+41 76 226 21 99' },
     { type: 'linkedin', label: 'Maud Julmy', href: 'https://linkedin.com/in/maud-julmy-3647b136' },
     { type: 'location', label: 'Vuisternens-en-Ogoz, Suisse' },
-    { type: 'location', label: 'Née le 27/04/1993 à Saint-Priest (France) / Born April 27, 1993 in Saint-Priest (France)' },
-    { type: 'location', label: 'Mariée, 1 enfant / Married, 1 child' },
-    { type: 'location', label: 'Permis B et BE / Driving licence B and BE' },
+    { type: 'location', label: 'Née le 27/04/1993 à Saint-Priest (France)' },
+    { type: 'location', label: 'Mariée, 1 enfant' },
+    { type: 'location', label: 'Permis de séjour B' },
   ],
   skills: [
     {
@@ -71,14 +71,14 @@ export const resumeConfig: ResumeConfig = {
         { name: 'SPSS' },
         { name: 'Jamovi' },
         { name: 'Matlab' },
-        { name: 'SQL' },
+        { name: 'basic Power BI' },
         { name: 'Figma' },
         { name: 'Adobe XD' },
         { name: 'Balsamiq' },
         { name: 'SolidWorks' },
         { name: 'Keyshot' },
         { name: 'Miro' },
-        { name: 'FigJam' },
+        { name: 'Notion' },
         { name: 'Microsoft 365' },
         { name: 'LaTeX' },
       ],
@@ -102,7 +102,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants.',
         en: 'Applied research in user-centred design and innovation project management.',
       },
-      techs: ['Figma', 'Miro', 'R', 'SPSS'],
+      techs: ['Figma', 'Miro', 'R', 'Notion'],
       isHighlighted: true,
       details: {
         context: {
@@ -111,23 +111,27 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           fr: [
-            'Montage et gestion de projets de recherche',
+            'Prospection, montage et gestion de projets de recherche',
             'UX research et spécifications produits',
-            'Prototypage et tests utilisateurs',
+            'Design vision, design service, customer journey, storyboard, design sprint workshop,' 
+            'Prototypage, tests utilisateurs, A/B testing, UX audit',
+            'Suivi des bug et priorisation des tâches',
             'Enseignement UX design Bachelor',
             'Management des assistants de recherche',
           ],
           en: [
             'Research project setup and management',
             'UX research and product specifications',
-            'Prototyping and user testing',
+            'Design vision, design service, customer journey, storyboard, design sprint workshop,'
+            'Prototyping, user testing, A/B testing, UX audit',
+            'Bug tracking and task prioritisation',
             'Bachelor UX design teaching',
             'Research assistant supervision',
           ],
         },
         env: {
-          fr: 'Figma / Miro / Méthodologies UX / Gestion de projet',
-          en: 'Figma / Miro / UX methodologies / Project management',
+          fr: 'Figma / Miro / Méthodologies UX / Design thinking / Gestion de projet',
+          en: 'Figma / Miro / UX methodologies / Design thinking / Project management',
         },
       },
     },
