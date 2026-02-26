@@ -30,7 +30,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'location', label: 'Vuisternens-en-Ogoz, Suisse' },
     { type: 'location', label: 'Née le 27/04/1993 à Saint-Priest (France)' },
     { type: 'location', label: 'Mariée, 1 enfant' },
-    { type: 'location', label: 'Permis se séjour B' },
+    { type: 'location', label: 'Permis de séjour B' },
   ],
   skills: [
     {
