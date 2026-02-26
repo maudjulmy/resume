@@ -9,19 +9,19 @@ export const resumeConfig: ResumeConfig = {
       en: 'Product Manager',
     },
     subtitle: {
-      fr: 'Produits numériques, UX et innovation',
+      fr: 'Produits physiques et numériques, UX et innovation',
       en: 'Digital products, UX and innovation',
     },
     location: 'Vuisternens-en-Ogoz, Suisse',
   },
   seo: {
     title: 'Maud Julmy — Product Manager',
-    description: 'CV interactif de Maud Julmy, Product Manager spécialisée en UX, innovation et gestion de projets de recherche.',
+    description: 'CV interactif de Maud Julmy, Product Manager spécialisée en UX, innovation et gestion de projets.',
   },
   languages: {
     default: 'fr',
     available: ['fr', 'en'],
-    labels: { fr: 'FR', en: 'EN' },
+    labels: { fr: 'FR', en: 'EN', de: 'DE' },
   },
   contact: [
     { type: 'email', label: 'maudpoulin@gmail.com' },
@@ -30,7 +30,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'location', label: 'Vuisternens-en-Ogoz, Suisse' },
     { type: 'location', label: 'Née le 27/04/1993 à Saint-Priest (France) / Born April 27, 1993 in Saint-Priest (France)' },
     { type: 'location', label: 'Mariée, 1 enfant / Married, 1 child' },
-    { type: 'location', label: 'Permis B et BE / Driving licence B and BE' },
+    { type: 'location', label: 'Permis de conduire B et BE / Driving licence B and BE' },
   ],
   skills: [
     {
@@ -71,7 +71,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'SPSS' },
         { name: 'Jamovi' },
         { name: 'Matlab' },
-        { name: 'SQL' },
+        { name: 'basic Power BI' },
         { name: 'Figma' },
         { name: 'Adobe XD' },
         { name: 'Balsamiq' },
@@ -81,6 +81,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'FigJam' },
         { name: 'Microsoft 365' },
         { name: 'LaTeX' },
+        { name: 'Notion' },
       ],
     },
     {
@@ -102,7 +103,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants.',
         en: 'Applied research in user-centred design and innovation project management.',
       },
-      techs: ['Figma', 'Miro', 'R', 'SPSS'],
+      techs: ['Figma', 'Miro', 'R', 'SPSS', 'Notion'],
       isHighlighted: true,
       details: {
         context: {
@@ -116,6 +117,7 @@ export const resumeConfig: ResumeConfig = {
             'Prototypage et tests utilisateurs',
             'Enseignement UX design Bachelor',
             'Management des assistants de recherche',
+            'Design Sprint',
           ],
           en: [
             'Research project setup and management',
@@ -123,6 +125,7 @@ export const resumeConfig: ResumeConfig = {
             'Prototyping and user testing',
             'Bachelor UX design teaching',
             'Research assistant supervision',
+            'Design Sprint'
           ],
         },
         env: {
@@ -148,13 +151,13 @@ export const resumeConfig: ResumeConfig = {
             'Animation de Design Sprints et entretiens',
             'Collaboration internationale (Espagne, UK, Italie)',
             'Organisation de webinaires pendant la Covid-19',
-            '3 ans d\'enseignement universitaire',
+            '3 ans d\'enseignement universitaire: Statistiques et Génie industriel',
           ],
           en: [
             'Design Sprint facilitation and interviews',
             'International collaboration (Spain, UK, Italy)',
             'Webinar organization during Covid-19',
-            '3 years of university teaching',
+            '3 years of university teaching: statistics and Industriel Enginerring',
           ],
         },
       },
@@ -169,7 +172,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Conception d\'une plateforme de Réalité Augmentée Spatiale pour la co-conception.',
         en: 'Design of a Spatial Augmented Reality platform for co-design.',
       },
-      techs: ['SolidWorks'],
+      techs: ['Unity', 'VR'],
     },
     {
       id: 'stages',
@@ -181,7 +184,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Expériences en formation, analyse cognitive et conduite du changement.',
         en: 'Experience in training design, cognitive analysis and change management.',
       },
-      techs: ['R'],
+      techs: ['Analyse des besoins'],
     },
     {
       id: 'cameraman',
