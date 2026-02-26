@@ -113,7 +113,7 @@ export const resumeConfig: ResumeConfig = {
           fr: [
             'Montage et gestion de projets de recherche',
             'UX research et spécifications produits',
-            'Design vision, design service, customer journey, storyboard, design sprint workshop,' 
+            'Design vision, design service, customer journey, storyboard, design sprint workshop', 
             'Prototypage et tests utilisateurs',
             'Suivi des bug et priorisation des tâches',
             'Enseignement UX design Bachelor',
@@ -122,7 +122,7 @@ export const resumeConfig: ResumeConfig = {
           en: [
             'Research project setup and management',
             'UX research and product specifications',
-            'Design vision, design service, customer journey, storyboard, design sprint workshop,
+            'Design vision, design service, customer journey, storyboard, design sprint workshop',
             'Prototyping and user testing',
             'Bug tracking and task prioritisation',
             'Bachelor UX design teaching',
@@ -147,6 +147,10 @@ export const resumeConfig: ResumeConfig = {
       },
       techs: ['R', 'SPSS', 'Unity'],
       details: {
+         context: {
+          fr: 'Etude de l'impact de la technologie de réalité visrtuelle sur la génération d'idée et sur la prise de décision.',
+          en: 'Studying effects of SAR techonoly on idea generation and decision making.',
+        },
         tasks: {
           fr: [
             'Animation de Design Sprints et entretiens',
@@ -161,6 +165,10 @@ export const resumeConfig: ResumeConfig = {
             '3 years of university teaching (Statistics and Knowledge Management)',
           ],
         },
+        env: {
+          fr: 'R / SPSS / Unity / Méthodes expérimentales',
+          en: 'R / SPSS / Unity / Experimental methods',
+        },
       },
     },
     {
@@ -174,18 +182,26 @@ export const resumeConfig: ResumeConfig = {
         en: 'Design of a Spatial Augmented Reality platform for co-design.',
       },
       techs: [],
-    },
-    {
-      id: 'stages',
-      company: { fr: 'Divers stages', en: 'Various internships' },
-      role: { fr: 'Stagiaire', en: 'Intern' },
-      type: { fr: 'Stages', en: 'Internships' },
-      period: { fr: '2015 - 2017', en: '2015 - 2017' },
-      description: {
-        fr: 'Expériences en formation, analyse cognitive et conduite du changement.',
-        en: 'Experience in training design, cognitive analysis and change management.',
+            details: {
+         context: {
+          fr: 'Etude des gestes dans le processus de conception.',
+          en: 'Studying gesture during iteratives phases of design process',
+        },
+        tasks: {
+          fr: [
+            'Observations et analyse des séances de revues de projet',
+            'Collaboration internationale (Espagne, UK, Italie)',
+          ],
+          en: [
+            'Observation and analyse of design reviews',
+            'International collaboration (Spain, UK, Italy)',
+          ],
+        },
+        env: {
+          fr: 'SAR',
+          en: 'SAR',
+        },
       },
-      techs: [],
     },
     {
       id: 'cameraman',
@@ -198,18 +214,26 @@ export const resumeConfig: ResumeConfig = {
         en: 'Freelance sports camerawoman in the equestrian field.',
       },
       techs: [],
-    },
-    {
-      id: 'publications',
-      company: { fr: 'Publications scientifiques', en: 'Scientific Publications' },
-      role: { fr: 'Autrice et co-autrice', en: 'Author and Co-author' },
-      type: { fr: 'Recherche', en: 'Research' },
-      period: { fr: '2019 - 2025', en: '2019 - 2025' },
-      description: {
-        fr: 'Publications internationales en interaction humain-machine et co-conception.',
-        en: 'International publications in human-computer interaction and co-design.',
+      details: {
+         context: {
+          fr: 'FEI CSI et SHF',
+          en: 'FEI CSI and SHF',
+        },
+        tasks: {
+          fr: [
+            'Mise en place du matériel',
+            'Cadrage et redifusion en live',
+          ],
+          en: [
+            'Equipment installation',
+            'live framing and broadcasting',
+          ],
+        },
+        env: {
+          fr: 'International',
+          en: 'International',
+        },
       },
-      techs: [],
     },
   ],
   education: [
