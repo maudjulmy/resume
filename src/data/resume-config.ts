@@ -9,19 +9,19 @@ export const resumeConfig: ResumeConfig = {
       en: 'Product Manager',
     },
     subtitle: {
-      fr: 'Produits physiques et numériques, UX et innovation',
+      fr: 'Produits numériques, UX et innovation',
       en: 'Digital products, UX and innovation',
     },
     location: 'Vuisternens-en-Ogoz, Suisse',
   },
   seo: {
     title: 'Maud Julmy — Product Manager',
-    description: 'CV interactif de Maud Julmy, Product Manager spécialisée en UX, innovation et gestion de projets.',
+    description: 'CV interactif de Maud Julmy, Product Manager spécialisée en UX, innovation et gestion de projets de recherche.',
   },
   languages: {
     default: 'fr',
     available: ['fr', 'en'],
-    labels: { fr: 'FR', en: 'EN', de: 'DE' },
+    labels: { fr: 'FR', en: 'EN' },
   },
   contact: [
     { type: 'email', label: 'maudpoulin@gmail.com' },
@@ -30,7 +30,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'location', label: 'Vuisternens-en-Ogoz, Suisse' },
     { type: 'location', label: 'Née le 27/04/1993 à Saint-Priest (France) / Born April 27, 1993 in Saint-Priest (France)' },
     { type: 'location', label: 'Mariée, 1 enfant / Married, 1 child' },
-    { type: 'location', label: 'Permis de conduire B et BE / Driving licence B and BE' },
+    { type: 'location', label: 'Permis B et BE / Driving licence B and BE' },
   ],
   skills: [
     {
@@ -71,7 +71,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'SPSS' },
         { name: 'Jamovi' },
         { name: 'Matlab' },
-        { name: 'basic Power BI' },
+        { name: 'SQL' },
         { name: 'Figma' },
         { name: 'Adobe XD' },
         { name: 'Balsamiq' },
@@ -81,7 +81,6 @@ export const resumeConfig: ResumeConfig = {
         { name: 'FigJam' },
         { name: 'Microsoft 365' },
         { name: 'LaTeX' },
-        { name: 'Notion' },
       ],
     },
     {
@@ -103,7 +102,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants.',
         en: 'Applied research in user-centred design and innovation project management.',
       },
-      techs: ['Figma', 'Miro', 'R', 'SPSS', 'Notion'],
+      techs: ['Figma', 'Miro', 'R', 'SPSS'],
       isHighlighted: true,
       details: {
         context: {
@@ -117,7 +116,6 @@ export const resumeConfig: ResumeConfig = {
             'Prototypage et tests utilisateurs',
             'Enseignement UX design Bachelor',
             'Management des assistants de recherche',
-            'Design Sprint',
           ],
           en: [
             'Research project setup and management',
@@ -125,7 +123,6 @@ export const resumeConfig: ResumeConfig = {
             'Prototyping and user testing',
             'Bachelor UX design teaching',
             'Research assistant supervision',
-            'Design Sprint'
           ],
         },
         env: {
@@ -146,109 +143,32 @@ export const resumeConfig: ResumeConfig = {
       },
       techs: ['R', 'SPSS', 'Matlab'],
       details: {
+        context: {
+          fr: 'Laboratoire G-SCOP, collaborations internationales.',
+          en: 'G-SCOP laboratory, international collaborations.',
+        },
         tasks: {
           fr: [
             'Animation de Design Sprints et entretiens',
-            'Collaboration internationale (Espagne, UK, Italie)',
             'Organisation de webinaires pendant la Covid-19',
-            '3 ans d\'enseignement universitaire: Statistiques et Génie industriel',
+            '3 ans d\'enseignement universitaire',
           ],
           en: [
             'Design Sprint facilitation and interviews',
-            'International collaboration (Spain, UK, Italy)',
             'Webinar organization during Covid-19',
-            '3 years of university teaching: statistics and Industriel Enginerring',
+            '3 years of university teaching',
           ],
+        },
+        env: {
+          fr: 'R / SPSS / Matlab / Méthodes expérimentales',
+          en: 'R / SPSS / Matlab / Experimental methods',
         },
       },
     },
-    {
-      id: 'spark',
-      company: { fr: 'Projet Européen SPARK H2020', en: 'European Project SPARK H2020' },
-      role: { fr: 'Ingénieure ergonome', en: 'Ergonomics Engineer' },
-      type: { fr: 'Projet européen', en: 'European project' },
-      period: { fr: '2017 - 2018', en: '2017 - 2018' },
-      description: {
-        fr: 'Conception d\'une plateforme de Réalité Augmentée Spatiale pour la co-conception.',
-        en: 'Design of a Spatial Augmented Reality platform for co-design.',
-      },
-      techs: ['Unity', 'VR'],
-    },
-    {
-      id: 'stages',
-      company: { fr: 'Divers stages', en: 'Various internships' },
-      role: { fr: 'Stagiaire', en: 'Intern' },
-      type: { fr: 'Stages', en: 'Internships' },
-      period: { fr: '2015 - 2017', en: '2015 - 2017' },
-      description: {
-        fr: 'Expériences en formation, analyse cognitive et conduite du changement.',
-        en: 'Experience in training design, cognitive analysis and change management.',
-      },
-      techs: ['Analyse des besoins'],
-    },
-    {
-      id: 'cameraman',
-      company: { fr: 'Indépendante', en: 'Freelance' },
-      role: { fr: 'Cameraman sportive', en: 'Sports Camerawoman' },
-      type: { fr: 'Indépendante', en: 'Freelance' },
-      period: { fr: '2014 - 2018', en: '2014 - 2018' },
-      description: {
-        fr: 'Cameraman indépendante dans le milieu équestre.',
-        en: 'Freelance sports camerawoman in the equestrian field.',
-      },
-      techs: [],
-    },
-    {
-      id: 'publications',
-      company: { fr: 'Publications scientifiques', en: 'Scientific Publications' },
-      role: { fr: 'Autrice et co-autrice', en: 'Author and Co-author' },
-      type: { fr: 'Recherche', en: 'Research' },
-      period: { fr: '2019 - 2025', en: '2019 - 2025' },
-      description: {
-        fr: 'Publications internationales en interaction humain-machine et co-conception.',
-        en: 'International publications in human-computer interaction and co-design.',
-      },
-      techs: [],
-    },
   ],
-  education: [
-    {
-      school: { fr: 'Grenoble INP', en: 'Grenoble INP' },
-      degree: { fr: 'Doctorat en Génie Industriel', en: 'PhD in Industrial Engineering' },
-      period: '2018 - 2021',
-    },
-    {
-      school: { fr: 'Université de Dijon', en: 'University of Dijon' },
-      degree: { fr: 'Master Psychologie - Ingénierie de la formation et ergonomie', en: 'Master in Psychology - Training Engineering and Ergonomics' },
-      period: '2015 - 2017',
-    },
-    {
-      school: { fr: 'Université Clermont-Ferrand', en: 'University of Clermont-Ferrand' },
-      degree: { fr: 'Licence de Psychologie', en: 'Bachelor in Psychology' },
-      period: '2011 - 2014',
-    },
-    {
-      school: { fr: 'Certification Design Sprint Master Class', en: 'Design Sprint Master Class Certification' },
-      degree: { fr: 'Certification', en: 'Certification' },
-      period: '2023',
-    },
-    {
-      school: { fr: 'Formation HERMES Foundation', en: 'HERMES Foundation Training' },
-      degree: { fr: 'En cours', en: 'In progress' },
-      period: '2026',
-    },
-  ],
-  hobbies: [
-    {
-      title: { fr: 'Sports & Nature', en: 'Sports & Nature' },
-      details: [
-        { fr: 'Randonnée pédestre et vélo', en: 'Hiking and cycling' },
-        { fr: 'Ski alpin, ski de randonnée, telemark', en: 'Alpine skiing, ski touring, telemark' },
-        { fr: 'Natation et natation en eau libre', en: 'Swimming and open water swimming' },
-        { fr: 'Équitation', en: 'Horse riding' },
-      ],
-    },
-  ],
+  education: [],
+  projects: [],
+  hobbies: [],
   theme: { preset: 'ocean' },
   labels: {
     sections: {
