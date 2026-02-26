@@ -148,7 +148,7 @@ export const resumeConfig: ResumeConfig = {
       techs: ['R', 'SPSS', 'Unity'],
       details: {
          context: {
-          fr: 'Etude de l'impact de la technologie de réalité visrtuelle sur la génération d'idée et sur la prise de décision.',
+           fr: 'Etude de l\'impact de la technologie de réalité visrtuelle sur la génération d\'idée et sur la prise de décision.',
           en: 'Studying effects of SAR techonoly on idea generation and decision making.',
         },
         tasks: {
