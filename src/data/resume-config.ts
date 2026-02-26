@@ -99,10 +99,10 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Poste académique', en: 'Academic position' },
       period: { fr: '2021 - Aujourd\'hui', en: '2021 - Present' },
       description: {
-        fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants.',
-        en: 'Applied research in user-centred design and innovation project management.',
+        fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants. Représentante du Corps Intermédiaire du domaine ingénierie au niveau du Conseil du Personnel. Membre du jury de recrutement du Directeur Général en 2024.',
+        en: 'Applied research in user-centred design and innovation project management. Representative of the Intermediate Corps in the engineering field at the Staff Council level. Member of the recruitment panel for the Chief Executive Officer in 2024.',
       },
-      techs: ['Figma', 'Miro', 'R', 'Notion'],
+      techs: ['Figma', 'Miro', 'R', 'Notion', 'Driving simulator', 'Meta quest VR headset', 'Unity'],
       isHighlighted: true,
       details: {
         context: {
@@ -145,7 +145,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Thèse sur l\'amélioration du processus de co-conception via la Réalité Augmentée Spatiale.',
         en: 'PhD thesis on improving co-design processes using Spatial Augmented Reality.',
       },
-      techs: ['R', 'SPSS', 'Matlab'],
+      techs: ['R', 'SPSS', 'Matlab', 'Unity'],
       details: {
         context: {
           fr: 'Laboratoire G-SCOP, collaborations internationales.',
@@ -155,17 +155,17 @@ export const resumeConfig: ResumeConfig = {
           fr: [
             'Animation de Design Sprints et entretiens',
             'Organisation de webinaires pendant la Covid-19',
-            '3 ans d\'enseignement universitaire',
+            '3 ans d\'enseignement universitaire: statistiques et management des connaissances',
           ],
           en: [
             'Design Sprint facilitation and interviews',
             'Webinar organization during Covid-19',
-            '3 years of university teaching',
+            '3 years of university teaching: statistics and knowledge management',
           ],
         },
         env: {
-          fr: 'R / SPSS / Matlab / Méthodes expérimentales',
-          en: 'R / SPSS / Matlab / Experimental methods',
+          fr: 'R / SPSS / Matlab / Méthodes expérimentales / Spatial augmented reality',
+          en: 'R / SPSS / Matlab / Experimental methods / Spatial augmented reality',
         },
       },
     },
