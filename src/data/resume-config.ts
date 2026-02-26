@@ -28,9 +28,9 @@ export const resumeConfig: ResumeConfig = {
     { type: 'phone', label: '+41 76 226 21 99' },
     { type: 'linkedin', label: 'Maud Julmy', href: 'https://linkedin.com/in/maud-julmy-3647b136' },
     { type: 'location', label: 'Vuisternens-en-Ogoz, Suisse' },
-    { type: 'location', label: 'Née le 27/04/1993 à Saint-Priest (France)' },
-    { type: 'location', label: 'Mariée, 1 enfant' },
-    { type: 'location', label: 'Permis de séjour B' },
+    { type: 'location', label: 'Née le 27/04/1993 à Saint-Priest (France) / Born April 27, 1993 in Saint-Priest (France)' },
+    { type: 'location', label: 'Mariée, 1 enfant / Married, 1 child' },
+    { type: 'location', label: 'Permis B et BE / Driving licence B and BE' },
   ],
   skills: [
     {
@@ -71,14 +71,14 @@ export const resumeConfig: ResumeConfig = {
         { name: 'SPSS' },
         { name: 'Jamovi' },
         { name: 'Matlab' },
-        { name: 'Power BI' },
+        { name: 'SQL' },
         { name: 'Figma' },
         { name: 'Adobe XD' },
         { name: 'Balsamiq' },
         { name: 'SolidWorks' },
         { name: 'Keyshot' },
         { name: 'Miro' },
-        { name: 'Notion' },
+        { name: 'FigJam' },
         { name: 'Microsoft 365' },
         { name: 'LaTeX' },
       ],
@@ -99,10 +99,10 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Poste académique', en: 'Academic position' },
       period: { fr: '2021 - Aujourd\'hui', en: '2021 - Present' },
       description: {
-        fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants. Représentante du Corps Intermédiaire du domaine ingénierie au niveau du Conseil du Personnel. Membre du jury de recrutement du Directeur Général en 2024',
-        en: 'Applied research in user-centred design and innovation project management. Representative of the Intermediate Corps in the engineering field at the Staff Council level. Member of the recruitment panel for the Chief Executive Officer in 2024',
+        fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants.',
+        en: 'Applied research in user-centred design and innovation project management.',
       },
-      techs: ['Figma', 'Miro', 'R', 'SPSS', 'Notion', 'Meta Quest Headset', 'Unity'],
+      techs: ['Figma', 'Miro', 'R', 'SPSS'],
       isHighlighted: true,
       details: {
         context: {
@@ -113,25 +113,21 @@ export const resumeConfig: ResumeConfig = {
           fr: [
             'Montage et gestion de projets de recherche',
             'UX research et spécifications produits',
-            'Design vision, design service, customer journey, storyboard, design sprint workshop', 
             'Prototypage et tests utilisateurs',
-            'Suivi des bug et priorisation des tâches',
             'Enseignement UX design Bachelor',
             'Management des assistants de recherche',
           ],
           en: [
             'Research project setup and management',
             'UX research and product specifications',
-            'Design vision, design service, customer journey, storyboard, design sprint workshop',
             'Prototyping and user testing',
-            'Bug tracking and task prioritisation',
             'Bachelor UX design teaching',
             'Research assistant supervision',
           ],
         },
         env: {
-          fr: 'Figma / Miro / Méthodologies UX / Design thinking / Gestion de projet',
-          en: 'Figma / Miro / UX methodologies / Design thinking / Project management',
+          fr: 'Figma / Miro / Méthodologies UX / Gestion de projet',
+          en: 'Figma / Miro / UX methodologies / Project management',
         },
       },
     },
@@ -145,29 +141,21 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Thèse sur l\'amélioration du processus de co-conception via la Réalité Augmentée Spatiale.',
         en: 'PhD thesis on improving co-design processes using Spatial Augmented Reality.',
       },
-      techs: ['R', 'SPSS', 'Unity'],
+      techs: ['R', 'SPSS', 'Matlab'],
       details: {
-         context: {
-          fr: 'Etude de l'impact de la technologie de réalité visrtuelle sur la génération d'idée et sur la prise de décision.',
-          en: 'Studying effects of SAR techonoly on idea generation and decision making.',
-        },
         tasks: {
           fr: [
             'Animation de Design Sprints et entretiens',
             'Collaboration internationale (Espagne, UK, Italie)',
             'Organisation de webinaires pendant la Covid-19',
-            '3 ans d\'enseignement universitaire (Statistiques et Management de la connaissance)',
+            '3 ans d\'enseignement universitaire',
           ],
           en: [
             'Design Sprint facilitation and interviews',
             'International collaboration (Spain, UK, Italy)',
             'Webinar organization during Covid-19',
-            '3 years of university teaching (Statistics and Knowledge Management)',
+            '3 years of university teaching',
           ],
-        },
-        env: {
-          fr: 'R / SPSS / Unity / Méthodes expérimentales',
-          en: 'R / SPSS / Unity / Experimental methods',
         },
       },
     },
@@ -181,27 +169,19 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Conception d\'une plateforme de Réalité Augmentée Spatiale pour la co-conception.',
         en: 'Design of a Spatial Augmented Reality platform for co-design.',
       },
-      techs: [],
-            details: {
-         context: {
-          fr: 'Etude des gestes dans le processus de conception.',
-          en: 'Studying gesture during iteratives phases of design process',
-        },
-        tasks: {
-          fr: [
-            'Observations et analyse des séances de revues de projet',
-            'Collaboration internationale (Espagne, UK, Italie)',
-          ],
-          en: [
-            'Observation and analyse of design reviews',
-            'International collaboration (Spain, UK, Italy)',
-          ],
-        },
-        env: {
-          fr: 'SAR',
-          en: 'SAR',
-        },
+      techs: ['SolidWorks'],
+    },
+    {
+      id: 'stages',
+      company: { fr: 'Divers stages', en: 'Various internships' },
+      role: { fr: 'Stagiaire', en: 'Intern' },
+      type: { fr: 'Stages', en: 'Internships' },
+      period: { fr: '2015 - 2017', en: '2015 - 2017' },
+      description: {
+        fr: 'Expériences en formation, analyse cognitive et conduite du changement.',
+        en: 'Experience in training design, cognitive analysis and change management.',
       },
+      techs: ['R'],
     },
     {
       id: 'cameraman',
@@ -214,26 +194,18 @@ export const resumeConfig: ResumeConfig = {
         en: 'Freelance sports camerawoman in the equestrian field.',
       },
       techs: [],
-      details: {
-         context: {
-          fr: 'FEI CSI et SHF',
-          en: 'FEI CSI and SHF',
-        },
-        tasks: {
-          fr: [
-            'Mise en place du matériel',
-            'Cadrage et redifusion en live',
-          ],
-          en: [
-            'Equipment installation',
-            'live framing and broadcasting',
-          ],
-        },
-        env: {
-          fr: 'International',
-          en: 'International',
-        },
+    },
+    {
+      id: 'publications',
+      company: { fr: 'Publications scientifiques', en: 'Scientific Publications' },
+      role: { fr: 'Autrice et co-autrice', en: 'Author and Co-author' },
+      type: { fr: 'Recherche', en: 'Research' },
+      period: { fr: '2019 - 2025', en: '2019 - 2025' },
+      description: {
+        fr: 'Publications internationales en interaction humain-machine et co-conception.',
+        en: 'International publications in human-computer interaction and co-design.',
       },
+      techs: [],
     },
   ],
   education: [
