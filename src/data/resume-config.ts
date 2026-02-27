@@ -92,7 +92,7 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Méthodologie', en: 'Methods' },
       type: 'text',
       items: [
-        { name: { fr: 'CCU', 'Design thinking', 'Agile/Scrum', en: 'UCD', 'Design thinking', 'Agile/Scrum' } },
+        { name: { fr: 'CCU, Design thinking, Agile/Scrum', en: 'UCD, Design thinking, Agile/Scrum' } },
       ],
     },
   ],
