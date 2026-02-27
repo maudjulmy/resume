@@ -9,8 +9,8 @@ export const resumeConfig: ResumeConfig = {
       en: 'Product Manager',
     },
     subtitle: {
-      fr: 'Produits numériques, UX et innovation',
-      en: 'Digital products, UX and innovation',
+      fr: 'UX strategy, Human-centred design',
+      en: 'UX strategy, Human-centred design',
     },
     location: 'Vuisternens-en-Ogoz, Suisse',
   },
@@ -70,13 +70,11 @@ export const resumeConfig: ResumeConfig = {
         { name: 'R' },
         { name: 'SPSS' },
         { name: 'Jamovi' },
-        { name: 'Matlab' },
         { name: 'Power BI' },
         { name: 'Figma' },
         { name: 'Adobe XD' },
         { name: 'Balsamiq' },
         { name: 'SolidWorks' },
-        { name: 'Keyshot' },
         { name: 'Miro' },
         { name: 'Notion' },
         { name: 'Microsoft 365' },
@@ -90,13 +88,20 @@ export const resumeConfig: ResumeConfig = {
         { name: { fr: 'Fédératrice, proactive, organisée, curieuse, dynamique, ambitieuse, persévérante, excellente communication', en: 'Collaborative leader, proactive, organized, curious, dynamic, ambitious, resilient, strong communication skills' } },
       ],
     },
+    {
+      title: { fr: 'Méthodologie', en: 'Methods' },
+      type: 'text',
+      items: [
+        { name: { fr: 'CCU', 'Design thinking', 'Agile/Scrum', en: 'UCD', 'Design thinking', 'Agile/Scrum' } },
+      ],
+    },
   ],
   experiences: [
     {
       id: 'hearc',
       company: { fr: 'HE-Arc Neuchâtel', en: 'HE-Arc Neuchâtel' },
       role: { fr: 'Adjointe scientifique', en: 'Scientific Associate' },
-      type: { fr: 'Poste académique', en: 'Academic position' },
+      type: { fr: 'CDI', en: 'CDI' },
       period: { fr: '2021 - Aujourd\'hui', en: '2021 - Present' },
       description: {
         fr: 'Recherche appliquée en conception centrée utilisateur et gestion de projets innovants. Représentante du Corps Intermédiaire du domaine ingénierie au niveau du Conseil du Personnel. Membre du jury de recrutement du Directeur Général en 2024',
@@ -139,7 +144,7 @@ export const resumeConfig: ResumeConfig = {
       id: 'phd',
       company: { fr: 'Grenoble INP', en: 'Grenoble INP' },
       role: { fr: 'Doctorante en Génie Industriel', en: 'PhD Candidate in Industrial Engineering' },
-      type: { fr: 'Doctorat', en: 'PhD' },
+      type: { fr: 'CDD', en: 'CDD' },
       period: { fr: '2018 - 2021', en: '2018 - 2021' },
       description: {
         fr: 'Thèse sur l\'amélioration du processus de co-conception via la Réalité Augmentée Spatiale.',
@@ -173,9 +178,9 @@ export const resumeConfig: ResumeConfig = {
     },
     {
       id: 'spark',
-      company: { fr: 'Projet Européen SPARK H2020', en: 'European Project SPARK H2020' },
+      company: { fr: 'Laboratoire G-SCOP', en: 'G-SCOP Lab' },
       role: { fr: 'Ingénieure ergonome', en: 'Ergonomics Engineer' },
-      type: { fr: 'Projet européen', en: 'European project' },
+      type: { fr: 'Projet Européen SPARK H2020', en: 'European Project SPARK H2020' },
       period: { fr: '2017 - 2018', en: '2017 - 2018' },
       description: {
         fr: 'Conception d\'une plateforme de Réalité Augmentée Spatiale pour la co-conception.',
@@ -237,6 +242,16 @@ export const resumeConfig: ResumeConfig = {
     },
   ],
   education: [
+   {
+      school: { fr: 'Formation HERMES Foundation', en: 'HERMES Foundation Training' },
+      degree: { fr: 'En cours', en: 'In progress' },
+      period: '2026',
+    },
+    {
+      school: { fr: 'Certification Design Sprint Master Class', en: 'Design Sprint Master Class Certification' },
+      degree: { fr: 'Certification', en: 'Certification' },
+      period: '2023',
+    },
     {
       school: { fr: 'Grenoble INP', en: 'Grenoble INP' },
       degree: { fr: 'Doctorat en Génie Industriel', en: 'PhD in Industrial Engineering' },
@@ -251,16 +266,6 @@ export const resumeConfig: ResumeConfig = {
       school: { fr: 'Université Clermont-Ferrand', en: 'University of Clermont-Ferrand' },
       degree: { fr: 'Licence de Psychologie', en: 'Bachelor in Psychology' },
       period: '2011 - 2014',
-    },
-    {
-      school: { fr: 'Certification Design Sprint Master Class', en: 'Design Sprint Master Class Certification' },
-      degree: { fr: 'Certification', en: 'Certification' },
-      period: '2023',
-    },
-    {
-      school: { fr: 'Formation HERMES Foundation', en: 'HERMES Foundation Training' },
-      degree: { fr: 'En cours', en: 'In progress' },
-      period: '2026',
     },
   ],
   hobbies: [
