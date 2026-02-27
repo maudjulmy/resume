@@ -9,8 +9,8 @@ export const resumeConfig: ResumeConfig = {
       en: 'Product Manager',
     },
     subtitle: {
-      fr: 'UX strategy, Human-centred design',
-      en: 'UX strategy, Human-centred design',
+      fr: 'UX strategy, Human-centered design',
+      en: 'UX strategy, Human-centered design',
     },
     location: 'Vuisternens-en-Ogoz, Suisse',
   },
