@@ -5,18 +5,18 @@ export const resumeConfig: ResumeConfig = {
     name: 'Maud Julmy',
     photoBackEmoji: '🎯',
     title: {
-      fr: 'Product Manager',
-      en: 'Product Manager',
+      fr: 'Product Owner / Transformation digitale - Centrée utilisateur',
+      en: 'Product Owner / Digital transformation - User-centered',
     },
     subtitle: {
-      fr: 'UX strategy, Human-centered design',
-      en: 'UX strategy, Human-centered design',
+      fr: 'UX strategy, Analyst, Human-centered design',
+      en: 'UX strategy, Analyst, Human-centered design',
     },
     location: 'Vuisternens-en-Ogoz, Suisse',
   },
   seo: {
-    title: 'Maud Julmy — Product Manager',
-    description: 'CV interactif de Maud Julmy, Product Manager spécialisée en UX, innovation et gestion de projets de recherche.',
+    title: 'Maud Julmy — Product Owner UX',
+    description: 'CV interactif de Maud Julmy, Product Owner spécialisée en UX, innovation et gestion de projets de transformation digitale.',
   },
   languages: {
     default: 'fr',
@@ -46,7 +46,7 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'UX & Product', en: 'UX & Product' },
       type: 'text',
       items: [
-        { name: { fr: 'Analyse des besoins et de l\'activité, spécifications utilisateurs, Design Sprint, ateliers d\'idéation, tests utilisateurs et A/B, échelles d\'évaluation UX', en: 'User needs analysis, user specifications, Design Sprint, ideation workshops, user testing and A/B testing, UX evaluation scales' } },
+        { name: { fr: 'Analyse des besoins et de l\'activité, spécifications utilisateurs, Design Sprint, ateliers d\'idéation, tests utilisateurs et A/B, échelles d\'évaluation UX, cartographie du parcours utilisateur', en: 'User needs analysis, user specifications, Design Sprint, ideation workshops, user testing and A/B testing, UX evaluation scales, user journey map' } },
       ],
     },
     {
@@ -85,7 +85,7 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Qualités', en: 'Soft Skills' },
       type: 'text',
       items: [
-        { name: { fr: 'Fédératrice, proactive, organisée, curieuse, dynamique, ambitieuse, persévérante, excellente communication', en: 'Collaborative leader, proactive, organized, curious, dynamic, ambitious, resilient, strong communication skills' } },
+        { name: { fr: 'Fédératrice, proactive, organisée, curieuse, dynamique, ambitieuse, persévérante, excellente communication, pont humain-tech-métier', en: 'Collaborative leader, proactive, organized, curious, dynamic, ambitious, resilient, strong communication skills, link human-tech-business' } },
       ],
     },
     {
