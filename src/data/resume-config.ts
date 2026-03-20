@@ -5,8 +5,8 @@ export const resumeConfig: ResumeConfig = {
     name: 'Maud Julmy',
     photoBackEmoji: '🎯',
     title: {
-      fr: 'Product Manager',
-      en: 'Product Manager',
+      fr: 'Product Owner / Transformation digitale - Centrée utilisateur',
+      en: 'Product Owner / Digital transformation - User-centered',
     },
     subtitle: {
       fr: 'UX strategy, Human-centered design',
